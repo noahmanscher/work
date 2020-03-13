@@ -423,14 +423,7 @@
         </div>
 
         <script>
-            const navButton = document.getElementById("nav-toggle");
-            const navLinks = document.querySelectorAll(".navigation__link");
-       
-            Array.from(navLinks).forEach(link =>
-              link.addEventListener("click", () => {
-                navButton.checked = false;
-              })
-            );
+            const navButton=document.getElementById("nav-toggle"),navLinks=document.querySelectorAll(".navigation__link");Array.from(navLinks).forEach(n=>n.addEventListener("click",()=>{navButton.checked=!1}));
           </script>
 
     </body>
