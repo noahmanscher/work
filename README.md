@@ -1,3 +1,3 @@
 # work
 
-See /natours
+See [/natours](https://noahmanscher.com/work/natours/)
